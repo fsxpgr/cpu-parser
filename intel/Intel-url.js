@@ -1,3 +1,8 @@
+//скрипт дістає урли всіх процесорів з сайту ark.intel.com
+//пише в файл Intel-urls.json
+//
+
+
 var cheerio = require('cheerio');
 var request = require('request');
 const jsdom = require('jsdom');
